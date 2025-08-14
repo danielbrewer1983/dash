@@ -1,4 +1,3 @@
-
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -7,10 +6,10 @@
     <style>
       body {
         background-color: red;
-        color: white;
+        color: black;
         font-family: Arial, sans-serif;
         text-transform: uppercase;
-        font-size: 16px;
+        font-size: 28px;
         margin: 0;
         padding: 20px;
         display: flex;
@@ -21,16 +20,16 @@
 
       a {
         background-color: #007BFF;
-        color: white;
-        padding: 8px 16px;
+        color: black;
+        padding: 12px 20px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         border-radius: 8px;
         transition: background-color 0.3s ease, color 0.3s ease;
-        margin: 6px 0;
+        margin: 10px auto;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 22px;
       }
 
       a:hover {
@@ -40,27 +39,36 @@
 
       .dropdown {
         position: relative;
-        display: inline-block;
-        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+        margin: 15px auto;
       }
 
       .dropdown-content {
         display: none;
         position: absolute;
         background-color: #007BFF;
-        min-width: 160px;
+        min-width: 180px;
         box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
         z-index: 1;
         border-radius: 8px;
         overflow: hidden;
+        left: 50%;
+        transform: translateX(-50%);
       }
 
       .dropdown-content a {
-        padding: 8px 12px;
+        padding: 12px 16px;
         display: block;
         text-align: center;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 22px;
+        color: black;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #0056b3;
+        color: white;
       }
 
       .dropdown:hover .dropdown-content {
@@ -68,10 +76,10 @@
       }
 
       .dropbtn {
-        font-size: 14px;
+        font-size: 22px;
         background-color: #007BFF;
-        color: white;
-        padding: 8px 16px;
+        color: black;
+        padding: 12px 20px;
         border: none;
         cursor: pointer;
         border-radius: 8px;
@@ -84,7 +92,7 @@
       }
 
       hr {
-        border: 1px solid #fff;
+        border: 1px solid #000;
         width: 80%;
         margin: 20px auto;
       }
@@ -145,7 +153,5 @@
     <a href="https://app.clickup.com/9010099348/v/gr/8cgpd4m-3954" target="_blank">500 Words Table</a><br />
     <a href="https://app.clickup.com/9010099348/v/li/901407165238" target="_blank">500!</a><br />
     <a href="https://app.clickup.com/9010099348/v/f/90144058018/90140141544" target="_blank">Keenmind Folder</a><br />
-    <a href="https://app.clickup.com/9010099348/v/li/901406478238" target="_blank">Morgan's Tasks</a><br />
-    <a href="https://cyber-detailed-organ.glitch.me" target="_blank">Morgan Splash</a>
   </body>
 </html>
