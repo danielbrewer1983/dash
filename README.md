@@ -132,31 +132,6 @@
   <body>
     <h1>Brewer Home</h1>
 
-    <a href="https://forms.clickup.com/9010099348/f/8cgpd4m-4334/R8YMECKX2IE17KGOL2" target="_blank">To Do Form</a><br />
-    <a href="https://app.clickup.com/9010099348/v/b/li/901407160371" target="_blank">To Do Board</a><br />
-    <a href="https://auspicious-somber-espadrille.glitch.me/" target="_blank">Comms Menu</a><br />
-    <a href="https://sharing.clickup.com/9010099348/wb/h/8cgpd4m-4534/f514495276aefe9" target="_blank">Goals Whiteboard</a><br />
-
-    <div class="dropdown">
-      <button class="dropbtn">Drops</button>
-      <div class="dropdown-content">
-        <a href="https://www.facebook.com" target="_blank">Facebook</a>
-        <a href="https://www.instagram.com" target="_blank">Instagram</a>
-        <a href="https://www.x.com" target="_blank">X.com</a>
-      </div>
-    </div>
-
-    <div class="dropdown">
-      <button class="dropbtn">Top AI Podcasts</button>
-      <div class="dropdown-content">
-        <a href="https://lexfridman.com/podcast/" target="_blank">Lex Fridman Podcast</a>
-        <a href="https://www.latent.space/podcast" target="_blank">Latent Space</a>
-        <a href="https://openai.com/blog/the-gpt-review" target="_blank">The GPT Review</a>
-        <a href="https://www.vox.com/ai-podcast" target="_blank">The AI Alignment Problem</a>
-        <a href="https://www.talkpython.fm/episodes/show/456/artificial-intelligence" target="_blank">Talk Python: AI Series</a>
-      </div>
-    </div>
-
     <div class="toggle">
       <button onclick="togglePearls()">PEARLS</button>
       <div class="toggle-links" id="pearlsLinks">
@@ -165,9 +140,13 @@
       </div>
     </div>
 
+    <a href="https://forms.clickup.com/9010099348/f/8cgpd4m-4334/R8YMECKX2IE17KGOL2" target="_blank">To Do Form</a><br />
+    <a href="https://app.clickup.com/9010099348/v/b/li/901407160371" target="_blank">To Do Board</a><br />
+    <a href="https://auspicious-somber-espadrille.glitch.me/" target="_blank">Comms Menu</a><br />
+    <a href="https://sharing.clickup.com/9010099348/wb/h/8cgpd4m-4534/f514495276aefe9" target="_blank">Goals Whiteboard</a><br />
+
     <hr />
 
-    <img src="https://cdn.glitch.global/bdd4ea00-86d0-4858-a8d0-3df5a092bbe9/7f82c1d1b08d357690e08fcb560528c6-rainbow-colorful-doodle%20(1).webp?v=1735450159552" alt="Rainbow Colorful Doodle" />
 
     <a href="https://forms.clickup.com/9010099348/f/8cgpd4m-4514/P81ICTLZCK8QEY9XGY" target="_blank">How Many Words?</a><br />
     <a href="https://forms.clickup.com/9010099348/f/8cgpd4m-4194/NSZ2H0IEUX4LE82I9P" target="_blank">BIGTASK FORM</a><br />
