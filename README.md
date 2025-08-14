@@ -85,6 +85,31 @@
         border-radius: 8px;
       }
 
+      .toggle {
+        margin: 20px 0;
+        text-align: center;
+      }
+
+      .toggle button {
+        font-size: 22px;
+        background-color: #007BFF;
+        color: black;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+
+      .toggle-links {
+        display: none;
+        flex-direction: column;
+        margin-top: 10px;
+      }
+
+      .toggle-links a {
+        margin: 8px auto;
+      }
+
       img {
         max-width: 100%;
         height: auto;
@@ -97,6 +122,12 @@
         margin: 20px auto;
       }
     </style>
+    <script>
+      function togglePearls() {
+        const links = document.getElementById("pearlsLinks");
+        links.style.display = links.style.display === "flex" ? "none" : "flex";
+      }
+    </script>
   </head>
   <body>
     <h1>Brewer Home</h1>
@@ -123,6 +154,14 @@
         <a href="https://openai.com/blog/the-gpt-review" target="_blank">The GPT Review</a>
         <a href="https://www.vox.com/ai-podcast" target="_blank">The AI Alignment Problem</a>
         <a href="https://www.talkpython.fm/episodes/show/456/artificial-intelligence" target="_blank">Talk Python: AI Series</a>
+      </div>
+    </div>
+
+    <div class="toggle">
+      <button onclick="togglePearls()">PEARLS</button>
+      <div class="toggle-links" id="pearlsLinks">
+        <a href="https://pearlkingdom.carrd.co/" target="_blank">PEARL KINGDOM</a>
+        <a href="https://doc.clickup.com/9010099348/p/h/8cgpd4m-814/59a51b47df8286e/8cgpd4m-1154" target="_blank">Square Links</a>
       </div>
     </div>
 
